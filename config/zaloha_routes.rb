@@ -1,5 +1,24 @@
 Prirucka::Application.routes.draw do
   
+  resources :foods
+
+
+  get "foods/new"
+
+  get "foods/edit"
+
+  get "foods/show"
+
+  get "foods/parser"
+
+  get "food/new"
+
+  get "food/edit"
+
+  get "food/show"
+
+  get "food/parser"
+
 	match 'foods/parser' => 'foods#parser'
 	resources :foods
 

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  englishName: MyString
+  type: 
+  water: 9.99
+  fat: 9.99
+  proteins: 9.99
+  energy: 9.99
+
+two:
+  name: MyString
+  englishName: MyString
+  type: 
+  water: 9.99
+  fat: 9.99
+  proteins: 9.99
+  energy: 9.99
